@@ -1,1 +1,26 @@
 /* CSS Sheet */
+
+.header {
+    background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-two {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.container-one {
+    display: flex;
+}
