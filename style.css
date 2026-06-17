@@ -10,7 +10,7 @@
     background-color: #1F2937;
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    font-size: 24px;
+    font-size: 12px;
     color: #F9FAF8;
 }
 
@@ -25,15 +25,56 @@
 .text-two {
     margin: 8px;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-size: 9px;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
-
 .container-one {
+    gap: 60px;
     background-color: #1F2937;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-two {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.paragraph-one, .button {
+    font-family: "Roboto", sans-serif;
+    font-size: 9px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin-top: 8px;
+}
+
+.button {
+  flex-grow: 0;
+  flex-shrink: 0;
+  cursor: pointer;
+  padding: 8px 24px;
+  border-radius: 8px;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.image-one {
+    width: 250px;
+    height: 125px;
+}
+
+.container-two {
+    padding: 60px;
+    background-color: #1F2937;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
