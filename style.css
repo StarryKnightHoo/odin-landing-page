@@ -80,6 +80,7 @@
 }
 
 .header-three {
+    margin-top: 24px;
     font-size: 18px;
     color: #1F2937;
     font-weight: 900;
@@ -98,7 +99,9 @@
 }
 
 .paragraph-two {
+    margin-top: -12px;
     font-family: "Roboto", sans-serif;
+    text-align: center;
     color: #97999c;
     font-size: 9px;
 }
@@ -108,4 +111,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-two {
+    padding-bottom: 60px;
 }
