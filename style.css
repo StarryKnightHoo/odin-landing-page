@@ -116,3 +116,30 @@
 .section-two {
     padding-bottom: 60px;
 }
+
+.section-three {
+    padding: 60px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    text-align: left;
+}
+
+.author {
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    color: #1F2937;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: right;
+}
