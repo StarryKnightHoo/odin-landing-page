@@ -86,3 +86,26 @@
     font-family: "Roboto", sans-serif;
     text-align: center;
 }
+
+.images {
+    margin: 12px;
+    width: 85px;
+    height: 85px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 2px;
+    border-color: royalblue;
+}
+
+.paragraph-two {
+    font-family: "Roboto", sans-serif;
+    color: #97999c;
+    font-size: 9px;
+}
+
+.illustrations {
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
